@@ -1,0 +1,2 @@
+vhdtdtfi -lib work i2s_master.vhd -prj Papilio_Audio_Modular -o i2s_master.spl -module i2s_master -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 i2s_master.spl C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/i2s_master.sym 

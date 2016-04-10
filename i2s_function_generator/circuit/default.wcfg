@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/Papilio_Audio_Modular_top_Papilio_Audio_Modular_top_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="papilio_audio_modular_top_papilio_audio_modular_top_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/arduino_22" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arduino_22</obj_property>
+      <obj_property name="ObjectShortName">arduino_22</obj_property>
+   </wvobject>
+   <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/arduino_24" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arduino_24</obj_property>
+      <obj_property name="ObjectShortName">arduino_24</obj_property>
+   </wvobject>
+   <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/arduino_26" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arduino_26</obj_property>
+      <obj_property name="ObjectShortName">arduino_26</obj_property>
+   </wvobject>
+   <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/arduino_28" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arduino_28</obj_property>
+      <obj_property name="ObjectShortName">arduino_28</obj_property>
+   </wvobject>
+   <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group124" type="group">
+      <obj_property name="label">i2s_master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/mclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mclk</obj_property>
+         <obj_property name="ObjectShortName">mclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/lrclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lrclk</obj_property>
+         <obj_property name="ObjectShortName">lrclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk</obj_property>
+         <obj_property name="ObjectShortName">sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sdata" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sdata</obj_property>
+         <obj_property name="ObjectShortName">sdata</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/data_l" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_l[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_l[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/data_r" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_r[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_r[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sclk_acc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_acc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sclk_acc[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/mclk_acc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mclk_acc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mclk_acc[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/mclk_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mclk_i</obj_property>
+         <obj_property name="ObjectShortName">mclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sclk_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_i</obj_property>
+         <obj_property name="ObjectShortName">sclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/data_l_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_l_i[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_l_i[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/data_r_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_r_i[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_r_i[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/clk_freq" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_freq</obj_property>
+         <obj_property name="ObjectShortName">clk_freq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/i2s_bit_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">i2s_bit_width</obj_property>
+         <obj_property name="ObjectShortName">i2s_bit_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/mclk_freq" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">mclk_freq</obj_property>
+         <obj_property name="ObjectShortName">mclk_freq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/mclk_acc_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">mclk_acc_width</obj_property>
+         <obj_property name="ObjectShortName">mclk_acc_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/mclk_acc_prescaler" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">mclk_acc_prescaler</obj_property>
+         <obj_property name="ObjectShortName">mclk_acc_prescaler</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sclk_freq" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_freq</obj_property>
+         <obj_property name="ObjectShortName">sclk_freq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sclk_acc_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_acc_width</obj_property>
+         <obj_property name="ObjectShortName">sclk_acc_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_3/sclk_acc_prescaler" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk_acc_prescaler</obj_property>
+         <obj_property name="ObjectShortName">sclk_acc_prescaler</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group152" type="group">
+      <obj_property name="label">Waveform Gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/phase_inc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">phase_inc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">phase_inc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/sin_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sin_out[11:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_out[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/cos_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cos_out[11:0]</obj_property>
+         <obj_property name="ObjectShortName">cos_out[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/squ_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">squ_out[11:0]</obj_property>
+         <obj_property name="ObjectShortName">squ_out[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/saw_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">saw_out[11:0]</obj_property>
+         <obj_property name="ObjectShortName">saw_out[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/phase_acc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">phase_acc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">phase_acc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/lut_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">lut_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">lut_addr[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/lut_addr_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">lut_addr_reg[11:0]</obj_property>
+         <obj_property name="ObjectShortName">lut_addr_reg[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/papilio_audio_modular_top_papilio_audio_modular_top_sch_tb/UUT/XLXI_1/sin_out_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sin_out_reg[11:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_out_reg[11:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

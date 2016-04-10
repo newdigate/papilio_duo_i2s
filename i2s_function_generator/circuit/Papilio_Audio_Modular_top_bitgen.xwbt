@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\Papilio_Audio_Modular_top.ncd
+OUTFILE=C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\Papilio_Audio_Modular_top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular
+LICENSE=WebPack
+USER_INFO=211148940_0_0_256

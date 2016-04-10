@@ -1,0 +1,4 @@
+vhdtdtfi -lib work clk_32MHz_to_100MHz.vhd -prj Papilio_Audio_Modular -o clk_32MHz_to_100MHz.spl -module clk_32MHz_to_100MHz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 clk_32MHz_to_100MHz.spl C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/clk_32MHz_to_100MHz.sym 
+vhdtdtfi -lib work clk_32MHz_to_100MHz.vhd -prj Papilio_Audio_Modular -o clk_32MHz_to_100MHz.spl -module clk_32MHz_to_100MHz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 clk_32MHz_to_100MHz.spl C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/clk_32MHz_to_100MHz.sym 

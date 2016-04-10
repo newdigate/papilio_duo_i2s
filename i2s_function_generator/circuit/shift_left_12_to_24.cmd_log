@@ -1,0 +1,2 @@
+vhdtdtfi -lib work shift_left_12_to_24.vhd -prj Papilio_Audio_Modular -o shift_left_12_to_24.spl -module shift_left_12_to_24 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 shift_left_12_to_24.spl C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/shift_left_12_to_24.sym 
