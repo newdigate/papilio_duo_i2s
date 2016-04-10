@@ -3,12 +3,15 @@ This is my collection of digital audio projects developed for fpgas using a papi
 
 This work is published under the MIT license. 
 
-####Digital Audio FPGA Projects
-* [i2s_function_generator](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_function_generator "i2s_function_generator") 
-  * my first basic project which outputs a sine wave though i2s 48kHz @ 24bits/sample stereo. 
+#### Digital Audio FPGA Projects
+* [i2s_function_generator](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_function_generator "basic i2s function generator") 
+  * my first basic vhdl project which outputs a sine wave though i2s 48kHz @ 24bits/sample stereo. 
+
+#### Modular
+I, too, dream of wires... I dream of IIRs and FIRs, of FFTs and DFTs, of multiplexors, multi-band compressors and mid/side encoders, decoders, and subharmonics. I dream of realtime, low-latency audio DSP. I, however, am not as amused by analog circuitry as certain hipster types...  
 
 #### Requirements
-* Software
+* Software (to design and synthsize bit files for your FPGA)
  * Xilinx ISE (runs from windows or linux, I could not get this running on OSX) or equivalent 
 * Hardware
  * FPGA
