@@ -9,11 +9,11 @@ This work is published under the MIT license.
 
 #### Requirements
 * Software
- * Xilinx ISE (runs from windows or linux, I could not get this running on OSX)
+ * Xilinx ISE (runs from windows or linux, I could not get this running on OSX) or equivalent 
 * Hardware
  * FPGA
    * I am using papilio duo, which uses the Xilinx Spartan6 XC9SLX9 FPGA.
- * DAC - you'll need a dac to convert the output I2S bus as an analog audio signal.
+ * Digital to Analog IC - you'll need a dac to convert the output I2S bus as an analog audio signal.
    * PCM5102A - I've used DIYINHK $12 special. I prefer it becuase there is no setup required though I2C or SPI and can handle up to stereo 384KHz @ 32 bits/sample. 
   
 #### Credits and resources
