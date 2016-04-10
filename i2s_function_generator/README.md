@@ -7,7 +7,7 @@
 - Output format
   - 48kHz sample rate
   - 24 bits/sample 
-  - Sterio 
+  - Stereo 
   - I2S master
     - MCLK 12.288MHz => ARDUINO_22
     - LRCLK 48kHz => ARDUINO_24
