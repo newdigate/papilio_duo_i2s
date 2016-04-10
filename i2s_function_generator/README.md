@@ -6,7 +6,8 @@
 - 440 Hz sine tone and triangle output through left and right channels
 
 ### credits and references
- - i2s master vhdl copied from from Stefan Kristiansson (*) SK-Synth project (GNU GPL)
+ - i2s master vhdl copied from Stefan Kristiansson (*) SK-Synth project (GNU GPL)
    - http://www.sk-electronics.com/www/index.php/opensourceprojects/68-sksynth
+   - https://github.com/skristiansson
 - waveform_gen and trig tables rom vhdl (sincos_lut.vhd) copied from Simon Doherty www.zipcores.com (GNU GPL)
 - built with the help of Papilio DesignLab for Papilio duo FPGA hardware
