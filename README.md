@@ -1,7 +1,11 @@
 ### papilio duo digital audio projects
-Modular I2S projects based on papilio duo
+This is my collection of digital audio projects developed for fpgas using a papilio duo fpga/arduino board. 
+
+This work is published under the MIT license. 
+
+####Digital Audio FPGA Projects
 * [i2s_function_generator](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_function_generator "i2s_function_generator") 
-  * first basic project which outputs a sine wave though i2s 48kHz @ 24bits/sample stereo. 
+  * my first basic project which outputs a sine wave though i2s 48kHz @ 24bits/sample stereo. 
 
 #### Requirements
 * Software
