@@ -8,16 +8,16 @@ Modular I2S projects based on papilio duo
  * Xilinx ISE (runs from windows or linux, I could not get this running on OSX)
 * Hardware
  * FPGA
-  * I am using papilio duo, which uses the Xilinx Spartan6 FPGA XC9SLX9. 
+   * I am using papilio duo, which uses the Xilinx Spartan6 XC9SLX9 FPGA.
  * DAC - you'll need a dac to convert the output I2S bus as an analog audio signal.
    * PCM5102A - I've used DIYINHK $12 special. I prefer it becuase there is no setup required though I2C or SPI and can handle up to stereo 384KHz @ 32 bits/sample. 
   
-#### Credits
+#### Credits and resources
 * Gadget Factory - builders of the Papilio family of FPGA dev kits.
- * http://www.gadgetfactory.net/
- * http://papilio.cc/
+  * http://www.gadgetfactory.net/
+  * http://papilio.cc/
 * Hamster's guide to FPGAs. 
- * http://hamsterworks.co.nz/mediawiki/index.php/FPGA_course
-* Free range
- * http://freerangefactory.org/pdf/free_range_vhdl.pdf
- * http://freerangefactory.org/
+  * http://hamsterworks.co.nz/mediawiki/index.php/FPGA_course
+* Free range factory
+  * http://freerangefactory.org/pdf/free_range_vhdl.pdf
+  * http://freerangefactory.org/
