@@ -26,7 +26,9 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clk_32MHz_to_100MHz.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="i2s_master.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="shift_left_12_to_24.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="shift_left_16_to_24.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="waveform_gen.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="waveform_gen_14addr_16value.sym" xil_pn:origination="imported"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>

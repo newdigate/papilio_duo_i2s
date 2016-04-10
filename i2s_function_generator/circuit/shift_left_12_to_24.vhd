@@ -37,9 +37,9 @@ entity shift_left_12_to_24 is
 end shift_left_12_to_24;
 
 architecture Behavioral of shift_left_12_to_24 is
-signal signed_out : signed (23 downto 0);
+signal signed_out : signed(23 downto 0);
 begin
---   signed_out <= 
-	data_out <= "0" & data_in & "00000000000";
+   data_out <= STD_LOGIC_VECTOR(to_signed(to_integer(unsigned(data_in))-2048, 12)) & "000000000000";
+	--data_out <= "0" & data_in & "00000000000";
 end Behavioral;
 
