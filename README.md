@@ -1,7 +1,7 @@
-### papilio duo digital audio projects
+### Papilio Duo - digital audio projects
 This is my collection of digital audio projects developed for fpgas using a papilio duo fpga/arduino board. 
 
-This repository is a work in progress. It is intended as a scratch pad. My experience with FPGAs and digital electronics is limited. This work is published under the MIT license, less otherwise specified. 
+This repository is a work in progress. It is intended as a scratch pad. My experience with FPGAs and digital electronics is limited. This work is published under the MIT license, unless otherwise specified. I am deeply greatful to the community online who have provided code which I am referencing. Any feedback is warmly welcomed. This code is provided as is. It is not committed to any claims and will not be accepting any liability, for anything, ever... 
 
 #### Digital Audio FPGA Projects
 * [i2s_function_generator](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_function_generator "basic i2s function generator") 
