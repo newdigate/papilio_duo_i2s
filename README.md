@@ -14,7 +14,8 @@ This repository is a work in progress. It is intended as a scratch pad. My exper
  * FPGA
    * I am using papilio duo, which uses the Xilinx Spartan6 XC9SLX9 FPGA.
  * Digital to Analog IC - you'll need a dac to convert the output I2S bus as an analog audio signal.
-   * PCM5102A - I've used a board from DIYINHK. It seems ok, I havent tested it very much. I would like to benchmark the board against others from ebay when I have the equipment and the time. I prefer PCM5102A becuase there is no setup required though I2C or SPI, it only needs a tiny number of components, and can handle up to stereo 384KHz @ 32 bits/sample (apparently - thats what it says but i'd like to test that one day). It loo
+   * PCM5102A - I've used a board from DIYINHK. It seems ok, I havent tested it very much. I would like to benchmark the board against others from ebay when I have the equipment and the time. I prefer PCM5102A becuase there is no setup required though I2C or SPI, it only needs a tiny number of components, and can handle up to stereo 384KHz @ 32 bits/sample (apparently - thats what it says but i'd like to test that one day).
+     * http://www.ti.com/product/PCM5102A
 
 #### Motivations
 If you want to understand something, then build it! 
@@ -33,8 +34,9 @@ I like the idea of modularity. That its not necessarily fixed, its like lego. Sa
 * Free range factory
   * http://freerangefactory.org/pdf/free_range_vhdl.pdf
   * http://freerangefactory.org/
-* EE wiki
-  * (https://eewiki.net/display/LOGIC/IIR+Filter+Design+in+VHDL+Targeted+for+18-Bit%2C+48+KHz+Audio+Signal+Use "eewiki iir filter vhdl example")
+* EE wiki - https://eewiki.net
+  * eewiki iir filter vhdl example
+    * https://eewiki.net/display/LOGIC/IIR+Filter+Design+in+VHDL+Targeted+for+18-Bit%2C+48+KHz+Audio+Signal+Use 
 * SK-Synth by Stefan Kristiansson
   * http://www.sk-electronics.com/www/index.php/opensourceprojects/68-sksynth
 https://eewiki.net/display/LOGIC/IIR+Filter+Design+in+VHDL+Targeted+for+18-Bit%2C+48+KHz+Audio+Signal+Use
