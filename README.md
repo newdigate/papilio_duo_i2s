@@ -25,7 +25,7 @@ FPGAs intruige me. I first got involved with FPGAs in the days of bit coin minin
 I like the idea of modularity. That its not necessarily fixed, its like lego. Same as software. And I find digital audio signal processess is a good application of maths.  
 
   
-#### Credits and resources
+#### Credits, links & resources
 * Gadget Factory - builders of the Papilio family of FPGA dev kits.
   * http://www.gadgetfactory.net/
   * http://papilio.cc/
@@ -40,3 +40,5 @@ I like the idea of modularity. That its not necessarily fixed, its like lego. Sa
 * SK-Synth by Stefan Kristiansson
   * http://www.sk-electronics.com/www/index.php/opensourceprojects/68-sksynth
 https://eewiki.net/display/LOGIC/IIR+Filter+Design+in+VHDL+Targeted+for+18-Bit%2C+48+KHz+Audio+Signal+Use
+* VHDL Type Conversion
+  * http://www.bitweenie.com/listings/vhdl-type-conversion/
