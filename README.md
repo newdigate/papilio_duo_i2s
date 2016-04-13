@@ -44,10 +44,9 @@ https://eewiki.net/display/LOGIC/IIR+Filter+Design+in+VHDL+Targeted+for+18-Bit%2
   * http://www.bitweenie.com/listings/vhdl-type-conversion/
 
 #### Future Objectives 
-* Pipeline: ADC -> I2S -> DSP -> I2S -> DAC
+* Pipeline: ADC -> I2S -> DSP (FPGA) -> I2S -> DAC
   * 768kHz sampling rate 
   * 32-bit sample resolution
   * AKM DACS and ADC
     * AK5397EQ - http://www.akm.com/akm/en/product/datasheet1/?partno=AK5397EQ
     * AK4497EQ - http://www.akm.com/akm/en/product/datasheet1/?partno=AK4497EQ
-* 
