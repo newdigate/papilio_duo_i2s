@@ -1,0 +1,72 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Chamberlain/Documents/EDA/Papilio_Audio_Modular/Papilio_Audio_Modular/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: rotary_encoder_8.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" into library work
+ERROR:HDLCompiler:806 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 1: Syntax error near "Rotary".
+Parsing entity <ROT_CTRL>.
+ERROR:HDLCompiler:854 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 53: Unit <rot_ctrl> ignored due to previous errors.
+Parsing architecture <RTL> of entity <rot_ctrl>.
+ERROR:HDLCompiler:374 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 61: Entity <rot_ctrl> is not yet compiled.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 63: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 64: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 65: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 66: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 67: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 68: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 69: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 70: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 71: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 82: <direction> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 83: <counter> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 85: <direction> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 86: <counter> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 81: <rotary_left> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 90: <direction> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\Chamberlain\Documents\EDA\Papilio_Audio_Modular\Papilio_Audio_Modular\rotary_encoder_8.vhd" Line 91: <counter> is not declared.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 186520 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

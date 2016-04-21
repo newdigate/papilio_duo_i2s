@@ -1,0 +1,8 @@
+vhdl work "sincos_lut_14bit_address_16bit_value.vhd"
+vhdl work "stereo_sinusoidal_generator.vhd"
+vhdl work "shift_left_16_to_24.vhd"
+vhdl work "rotary_encoder_8.vhd"
+vhdl work "i2s_master.vhd"
+vhdl work "clk_32MHz_to_100MHz.vhd"
+vhdl work "BasicFilter_LowPass.vhd"
+vhdl work "Papilio_Audio_Modular_top.vhf"

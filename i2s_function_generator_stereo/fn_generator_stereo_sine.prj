@@ -1,0 +1,2 @@
+vhdl work "sincos_lut_14bit_address_16bit_value.vhd"
+vhdl work "stereo_sinusoidal_generator.vhd"
