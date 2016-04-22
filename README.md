@@ -14,7 +14,7 @@ This repository is a work in progress. It is intended as a scratch pad. My exper
 #### Next
 * use SDRAM for higher resolution sine wave. More bits/sample and more samples per second.
 * USB 3 connectivity to PC (5Gb/s throughput)
-* 
+
 #### Requirements
 * Software (to design and synthsize bit files for your FPGA)
  * Xilinx ISE (runs from windows or linux, I could not get this running on OSX) or equivalent 
