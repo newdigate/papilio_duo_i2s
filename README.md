@@ -6,7 +6,15 @@ This repository is a work in progress. It is intended as a scratch pad. My exper
 #### Digital Audio FPGA Projects
 * [i2s_function_generator](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_function_generator "basic i2s function generator") 
   * my first basic vhdl project which outputs a sine wave though i2s 48kHz @ 24bits/sample stereo. 
-
+* [i2s_function_generator_stereo](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_function_generator_stereo" stereo i2s function generator")
+  * modified the function generator to produce a stereo signal. 
+  * left and right channel each have a dedicated rotary encoder to control the frequency.
+  * added basic fir digital filters to left and right channels.
+  
+#### Next
+* use SDRAM for higher resolution sine wave. More bits/sample and more samples per second.
+* USB 3 connectivity to PC (5Gb/s throughput)
+* 
 #### Requirements
 * Software (to design and synthsize bit files for your FPGA)
  * Xilinx ISE (runs from windows or linux, I could not get this running on OSX) or equivalent 
