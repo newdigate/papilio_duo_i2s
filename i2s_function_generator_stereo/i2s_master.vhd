@@ -42,7 +42,7 @@ end i2s_master;
 architecture rtl of i2s_master is
 	constant I2S_BIT_WIDTH : integer := 24;
 	-- calculate MCLK_ACC_PRESCALER
-	constant MCLK_FREQ : integer := 12288000;
+	constant MCLK_FREQ : integer := 16000000;
 	constant MCLK_ACC_WIDTH : integer := 16;	
 	constant MCLK_ACC_PRESCALER : integer := integer(real(2**MCLK_ACC_WIDTH)/(real(CLK_FREQ)/real(MCLK_FREQ)));
 	-- calculate SCLK_ACC_PRESCALER
