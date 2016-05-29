@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Chamberlain/Documents/EDA/papilio_duo_i2s/i2s_mux/i2s_mux/tb_i2s_mux_isim_beh.exe" -prj "C:/Users/Chamberlain/Documents/EDA/papilio_duo_i2s/i2s_mux/i2s_mux/tb_i2s_mux_beh.prj" "work.tb_i2s_mux" 

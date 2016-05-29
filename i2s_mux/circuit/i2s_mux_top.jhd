@@ -1,0 +1,3 @@
+MODULE i2s_mux_top
+	SUBMODULE i2s_mux2
+		INSTANCE XLXI_3
