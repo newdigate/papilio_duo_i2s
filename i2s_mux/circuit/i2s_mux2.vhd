@@ -114,22 +114,22 @@ begin
 			out_1 <= STD_LOGIC_VECTOR( 	(unsigned(in_1) * unsigned(vol_in1_out1)) 
 												+ 	(unsigned(in_2) * unsigned(vol_in2_out1)) 
 												+ 	(unsigned(in_3) * unsigned(vol_in3_out1)) 
-												+ 	(unsigned(in_4) * unsigned(vol_in4_out1)));
+												+ 	(unsigned(in_4) * unsigned(vol_in4_out1))) & b"00";
 
 			out_2 <= STD_LOGIC_VECTOR( 	(unsigned(in_1) * unsigned(vol_in1_out2)) 
 												+ 	(unsigned(in_2) * unsigned(vol_in2_out2)) 
 												+ 	(unsigned(in_3) * unsigned(vol_in3_out2)) 
-												+ 	(unsigned(in_4) * unsigned(vol_in4_out2)));
+												+ 	(unsigned(in_4) * unsigned(vol_in4_out2))) & b"00";
 
 			out_3 <= STD_LOGIC_VECTOR( 	(unsigned(in_1) * unsigned(vol_in1_out3)) 
 												+ 	(unsigned(in_2) * unsigned(vol_in2_out3)) 
 												+ 	(unsigned(in_3) * unsigned(vol_in3_out3)) 
-												+ 	(unsigned(in_4) * unsigned(vol_in4_out3)));
+												+ 	(unsigned(in_4) * unsigned(vol_in4_out3))) & b"00";
 
 			out_4 <= STD_LOGIC_VECTOR( 	(unsigned(in_1) * unsigned(vol_in1_out4)) 
 												+ 	(unsigned(in_2) * unsigned(vol_in2_out4)) 
 												+ 	(unsigned(in_3) * unsigned(vol_in3_out4)) 
-												+ 	(unsigned(in_4) * unsigned(vol_in4_out4)));
+												+ 	(unsigned(in_4) * unsigned(vol_in4_out4))) & b"00";
 
 
 		end if;
