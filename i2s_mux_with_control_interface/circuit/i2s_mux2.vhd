@@ -31,15 +31,17 @@ use IEEE.NUMERIC_STD.UNSIGNED;
 --use UNISIM.VComponents.all;
 
 entity i2s_mux2 is
-    Port ( LRCLK : in  STD_LOGIC;
+    Port ( CLK : in STD_LOGIC;
+			  LRCLK : in  STD_LOGIC;
            BCLK : in  STD_LOGIC;
            SDATAIN_1 : in  STD_LOGIC;
            SDATAIN_2 : in  STD_LOGIC;
 			  
 			  -- control interface
 			  ADDRESS : in  STD_LOGIC_VECTOR (7 downto 0);
-           DATA : inout  STD_LOGIC_VECTOR (15 downto 0);
-           READ_ENABLE : in  STD_LOGIC;
+           DATA_IN : in  STD_LOGIC_VECTOR (15 downto 0);
+			  DATA_OUT : out  STD_LOGIC_VECTOR (15 downto 0);
+			  READ_ENABLE : in  STD_LOGIC;
            WRITE_ENABLE : in  STD_LOGIC;			  
 			  
            SDATAOUT_1 : out  STD_LOGIC;
@@ -80,7 +82,8 @@ signal vol_in1_out4 : std_logic_vector( 15 downto 0) := b"1000_0000_0000_0000";
 signal vol_in2_out4 : std_logic_vector( 15 downto 0) := b"1000_0000_0000_0000";
 signal vol_in3_out4 : std_logic_vector( 15 downto 0) := b"1000_0000_0000_0000";
 signal vol_in4_out4 : std_logic_vector( 15 downto 0) := b"1000_0000_0000_0000";
-
+signal old_WRITE_ENABLE : std_logic := '0';
+signal old_READ_ENABLE : std_logic := '0';
 begin
 
 	counter : process(BCLK,LRCLK) 
@@ -98,28 +101,52 @@ begin
 		end if;
 	end process;
 	
-	control_interface_write : process (WRITE_ENABLE) 
+	control_interface_write : process (clk) 
 	begin
-		if rising_edge(WRITE_ENABLE) then
-			case ADDRESS is 
-				when b"0000_0000" => vol_in1_out1 <= data;
-				when b"0000_0001" => vol_in1_out2 <= data;
-				when b"0000_0010" => vol_in1_out3 <= data;
-				when b"0000_0011" => vol_in1_out4 <= data;
-				when b"0000_0100" => vol_in2_out1 <= data;
-				when b"0000_0101" => vol_in2_out2 <= data;
-				when b"0000_0110" => vol_in2_out3 <= data;
-				when b"0000_0111" => vol_in2_out4 <= data;
-				when b"0000_1000" => vol_in3_out1 <= data;
-				when b"0000_1001" => vol_in3_out2 <= data;
-				when b"0000_1010" => vol_in3_out3 <= data;
-				when b"0000_1011" => vol_in3_out4 <= data;
-				when b"0000_1100" => vol_in4_out1 <= data;
-				when b"0000_1101" => vol_in4_out2 <= data;
-				when b"0000_1110" => vol_in4_out3 <= data;
-				when b"0000_1111" => vol_in4_out4 <= data;
-				when others => 
-			end case;
+		if rising_edge(clk) then
+			old_WRITE_ENABLE <= WRITE_ENABLE;	
+			old_READ_ENABLE <= READ_ENABLE;	
+			if WRITE_ENABLE = '1' and old_WRITE_ENABLE = '0' then
+				case ADDRESS is 
+					when b"0000_0000" => vol_in1_out1 <= data_in;
+					when b"0000_0001" => vol_in1_out2 <= data_in;
+					when b"0000_0010" => vol_in1_out3 <= data_in;
+					when b"0000_0011" => vol_in1_out4 <= data_in;
+					when b"0000_0100" => vol_in2_out1 <= data_in;
+					when b"0000_0101" => vol_in2_out2 <= data_in;
+					when b"0000_0110" => vol_in2_out3 <= data_in;
+					when b"0000_0111" => vol_in2_out4 <= data_in;
+					when b"0000_1000" => vol_in3_out1 <= data_in;
+					when b"0000_1001" => vol_in3_out2 <= data_in;
+					when b"0000_1010" => vol_in3_out3 <= data_in;
+					when b"0000_1011" => vol_in3_out4 <= data_in;
+					when b"0000_1100" => vol_in4_out1 <= data_in;
+					when b"0000_1101" => vol_in4_out2 <= data_in;
+					when b"0000_1110" => vol_in4_out3 <= data_in;
+					when b"0000_1111" => vol_in4_out4 <= data_in;
+					when others => 
+				end case;
+			elsif READ_ENABLE = '1' and old_READ_ENABLE = '0' then
+				case ADDRESS is 
+					when b"0000_0000" => data_out <= vol_in1_out1;
+					when b"0000_0001" => data_out <= vol_in1_out2;
+					when b"0000_0010" => data_out <= vol_in1_out3;
+					when b"0000_0011" => data_out <= vol_in1_out4;
+					when b"0000_0100" => data_out <= vol_in2_out1;
+					when b"0000_0101" => data_out <= vol_in2_out2;
+					when b"0000_0110" => data_out <= vol_in2_out3;
+					when b"0000_0111" => data_out <= vol_in2_out4;
+					when b"0000_1000" => data_out <= vol_in3_out1;
+					when b"0000_1001" => data_out <= vol_in3_out2;
+					when b"0000_1010" => data_out <= vol_in3_out3;
+					when b"0000_1011" => data_out <= vol_in3_out4;
+					when b"0000_1100" => data_out <= vol_in4_out1;
+					when b"0000_1101" => data_out <= vol_in4_out2;
+					when b"0000_1110" => data_out <= vol_in4_out3;
+					when b"0000_1111" => data_out <= vol_in4_out4;
+					when others => 
+				end case;			
+			end if;
 		end if;
 	end process;
 	

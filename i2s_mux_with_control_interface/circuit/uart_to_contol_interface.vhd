@@ -37,8 +37,9 @@ entity uart_to_contol_interface is
 				rx_data : in  STD_LOGIC_VECTOR (7 downto 0);
            
 				-- control interface
-				control_data : inout  STD_LOGIC_VECTOR (15 downto 0);
-				control_address : out  STD_LOGIC_VECTOR (7 downto 0);
+				control_data_in : in  STD_LOGIC_VECTOR (15 downto 0);
+				control_data_out : out STD_LOGIC_VECTOR (15 downto 0);
+				control_address : out STD_LOGIC_VECTOR (7 downto 0);
 				control_read_en : out STD_LOGIC;
 				control_write_en : out STD_LOGIC;
 				
@@ -58,20 +59,21 @@ signal response : STD_LOGIC_VECTOR(15 downto 0);
 begin
 
 	receiver : process (clk)
-	begin
-		old_rx_enable <= rx_enable;
+	begin	
 		if rising_edge(clk) then
+			
+			old_rx_enable <= rx_enable;
 			if state = fetch_register then
-				response <= control_data;
+				response <= control_data_in;
 				state <= transmit_val1;
-				tx_data <= control_data(15 downto 8);
+				tx_data <= control_data_in(15 downto 8);
 				tx_enable <= '1';
 			elsif state = transmit_val1 then
 				state <= transmit_val2;			
 				tx_enable <= '0';
 			elsif state = transmit_val2 then
 				state <= transmit_val3;			
-				tx_data <= control_data(7 downto 0);
+				tx_data <= response(7 downto 0);
 				tx_enable <= '1';
 			elsif state = transmit_val3 then
 				state <= transmit_val3;			
@@ -98,7 +100,7 @@ begin
 							state <= idle;
 							control_address <= address;
 							control_write_en <= '1';
-							control_data <= val1 & rx_data;
+							control_data_out <= val1 & rx_data;
 						elsif command = b"0000_0001" then
 							-- cmd=1 : read regiser
 							state <= fetch_register;	
