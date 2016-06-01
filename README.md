@@ -10,6 +10,8 @@ This repository is a work in progress. It is intended as a scratch pad. My exper
   * modified the function generator to produce a stereo signal. 
   * left and right channel each have a dedicated rotary encoder to control the frequency.
   * added basic fir digital filters to left and right channels.
+* [i2s_mux](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_mux "i2s multiplexer")
+* [i2s_mux_with_ctrl_interface](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_mux_with_control_interface "i2s multiplexer with control interface")
   
 #### Next
 * use SDRAM for higher resolution sine wave. More bits/sample and more samples per second.
