@@ -11,7 +11,12 @@ This repository is a work in progress. It is intended as a scratch pad. My exper
   * left and right channel each have a dedicated rotary encoder to control the frequency.
   * added basic fir digital filters to left and right channels.
 * [i2s_mux](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_mux "i2s multiplexer")
+  * LRCLK, BCLK and 2 SDATA inputs (each SDATA is stereo, therefor 4 inputs)
+  * 2 SDATA outputs (4 outputs)
+  * Multiplexes each input against each output at a given volume
+  * 16 volumes (each input against each output) all hardcoded in FGPA design
 * [i2s_mux_with_ctrl_interface](https://github.com/newdigate/papilio_duo_i2s/tree/master/i2s_mux_with_control_interface "i2s multiplexer with control interface")
+  *  Same as i2s_mux, but adding a UART control interface to control input per output volumes.
   
 #### Next
 * use SDRAM for higher resolution sine wave. More bits/sample and more samples per second.
